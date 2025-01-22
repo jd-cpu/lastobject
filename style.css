@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'Gastromond';
+    src: url('path-to-your-font/Gastromond.ttf') format('truetype'); /* Update the path to your font file */
+}
+*{ 
+   margin:0px;
+    font-family: "Poppins", serif;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+  display:flex;
+  align-items: center;
+  color:#0a4c74;
+  height:64px;
+  width:100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+.nav-left{
+  display:flex;
+  margin-left:px;
+  font-family: poppins;
+  font-size: 10px;
+  width:600px;
+}
+.nav-left1{
+  font-size:15px;
+  padding-right:20px;
+  padding-left:20px
+}
+.nav-left2{
+  padding-left:10px;
+}
+.nav-center{
+   margin-left: 40px;
+   font-size: 22px;
+}
+.nav-right{
+  display: flex;
+  margin-left:500px;
+  font-size:30px;
+  margin-right: 5px;
+}
+.firsticon{
+  padding-right: 30px;
+}
+.secondicon{
+  padding-right:10px;
+}
+.container{
+  height:313px;
+  width:100%;
+  background-image: url("./images/banner.jpg");
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding-left:50px;
+}
+.line{
+  height:3px;
+  width:50px;
+  background-color: #de66cc;
+  border-radius:40px;
+  margin-left: 230px;
+}
+#signin{
+   background-color: #054663;
+   color:#ffffff;
+   border: none;
+   height:50px;
+   width:250px;
+   border-radius:30px ;
+   font-size: border;
+   font-weight:bolder;
+}
+.headingstart{ 
+   color:#0a4c74;
+   font-size: 17px;
+   font-weight: lighter;
+   padding-left:100px ;
+   font-family: "Gastromond";
+}
+.headingend{
+  color:#4b645c;
+  padding-left: 50px;
+  font-weight: lighter;
+  font-family: "Gastromond";
+}
+.button{
+  padding-left: 120px;
+}
+}
+.container1{
+  height:442px;
+  width:100%;
+  padding-right: 70px;
+}
+.contentcontainer{
+  width:500px;
+  height:432px;
+  margin-left:435px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top:40px;
+  padding-right: 70px;
+ }
+.h21{
+  margin-top:-30px;
+  color:#0a4c74;
+  padding-right:40px;
+}
+.h12{
+  color:#0a4c74;
+  padding-right: 50px;
+}
+.line2{
+  height:3px;
+  width:50px;
+  background-color: #de66cc;
+  border-radius:40px;
+  margin-left: 160px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+#paragraph2secondline{
+  padding-left:1px ;
+   margin-left:20px;
+  margin-right: 20px;
+  padding-left:1px;
+  margin-bottom: 20px;
+  color:#054663;
+  font-size: 13px;
+}
+.paragraph2ndcontent{
+ color:#054663;
+ font-size: 13px;
+ margin-top: 20px;
+}
+.png2{
+  width:500px;
+  height:200px;
+  background-image:url("./images/icons.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+}
+.underline{
+  height:3px;
+  width:50px;
+  background-color: #de66cc;
+  border-radius:40px;
+  margin-left: 160px;
+  margin-top: 10px;
+  margin-bottom:10px ;
+}
+.shorttitle{
+   width: 100%;
+   height:60px;
+   color:#054663;
+   display: inline-block;
+   padding-left: 450px;
+   padding-top: 50px;
+}
+.categories{
+   display: flex;
+   padding-top: 50px;
+   justify-content: space-around;
+}
+.item{
+   height:402px;
+   width:294px;
+   margin:4px;
+}
+.itemimg{
+   height:270px;
+   width:270px;
+}
+.shorttitle h1{
+   font-family: "Gastromond";
+   font-size: 50px;
+   font-weight: bolder;
+}
+.headingtagofitem{
+    font-family: "Gastromond";
+    color:#054663;
+    padding-top: 270px;
+    font-weight: bolder;
+}
+.paratagofitem{
+   color:#054663;
+   font-size: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.buttontagofitems{
+   background-color:#054663;
+   border: none;
+   font-size: 20px;
+   color:#ffffff;
+   height:50px;
+   width:265px;
+   border-radius: 40px;
+}
+#paratagofitem3{
+   padding-bottom: 10px;
+}
+}
+.container4{
+   display: flex;
+   padding-top: 50px;
+   padding-left: 150px;
+}
+.reviews{
+   height:200px;
+   width:309px;
+   margin: 4px;
+}
+.reviewstar{
+   color:#f5be0a;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+.reviewstatement{
+   color:#054663;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   font-size:15px ;
+}
+.productname{
+   color:#6e6b60;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.reviewimg{
+   height:56px;
+   width:56px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding-left: 20px;
+}
+.revimg1div{
+   padding-left: 120px;
+}
+.line4{
+   height:3px;
+   width:50px;
+   background-color: #de66cc;
+   border-radius:40px;
+   margin-left: 160px;
+   margin-top: 10px;
+   margin-left: 620px;
+}
+.heading1videoreview{
+   color:#054663;
+   font-family: 'Gastromond';
+   font-size: 25px;
+   font-weight: bolder;
+   display:flex;
+   text-align: center;
+   justify-content: center;
+}
+.heading2videoreview{
+   color:#054663;
+   font-family: 'Gastromond';
+   font-size: 25px;
+   font-weight: bolder;
+   display:flex;
+   text-align: center;
+   justify-content: center;
+}
+.videoreviewsvideos{
+   display: flex;
+   padding-top: 50px;
+   justify-content: space-around;
+}
+.videeo{
+   height:462px;
+   width:326px;
+}
+.videodiv1{
+   border-radius: 20px;
+}
+.videodiv2{
+   border-radius: 20px;
+}
+.videodiv3{
+   border-radius: 20px;
+}
+.colorchanger{
+   color:#054663;
+}
+.press-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+.press-title {
+    font-size: 2.5rem;
+    color: #054663;
+    margin: 0;
+    font-weight: 600;
+}
+.press-line {
+    width: 50px;
+    height: 3px;
+    background-color: #de66cc;
+    margin: 10px auto 30px;
+    border-radius: 2px;
+}
+.press-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: auto;
+   margin: 0 auto;
+}
+.press-item {
+    text-align: center;
+    padding: 10px 20px;
+}
+.press-quote {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #333;
+}
+.press-logo {
+    max-width: 150px;
+    height:auto;
+}
+.Award-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.Award-item {
+    text-align: center;
+    max-width: 500px;
+    height: auto;
+}
